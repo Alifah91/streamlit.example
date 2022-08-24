@@ -28,9 +28,6 @@ df = user_input_features()
 
 st.subheader('User Input parameters')
 st.write(df)
-
-iris = datasets.load_iris()
-X = iris.data
 Y = iris.target
 
 
@@ -42,7 +39,7 @@ import time
 
 st.header("My first Streamlit App")
 
-option = st.sidebar.selectbox(
+option =  "iris.target_names"(
     'Select a mini project',
      ['line chart','map','T n C','Long Process'])
 
