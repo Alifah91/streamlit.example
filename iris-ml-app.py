@@ -29,7 +29,7 @@ df = user_input_features()
 st.subheader('User Input parameters')
 st.write(df)
 
-st.header("My first Streamlit App")
+st.header(Iris Flower")
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -49,7 +49,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-st.header("My first Streamlit App")
+st.header("Iris Flower")
 st.write(pd.DataFrame({
     'Intplan': ['yes', 'yes', 'yes', 'no'],
     'Churn Status': [0, 0, 0, 1]
@@ -58,7 +58,7 @@ st.write(pd.DataFrame({
 import streamlit as st
 import pandas as pd
 
-st.header("My first Streamlit App")
+st.header("Iris Flower")
 
 st.write('Before you continue, please read the [terms and conditions](https://www.gnu.org/licenses/gpl-3.0.en.html)')
 show = st.checkbox('I agree the terms and conditions')
@@ -73,7 +73,7 @@ if show:
 import numpy as np
 import pandas as pd
 
-st.header("My first Streamlit App")
+st.header("Iris Flower")
 
 option = st.sidebar.selectbox(
     'Select a mini project',
@@ -108,7 +108,7 @@ import numpy as np
 import pandas as pd
 import time
 
-st.header("My first Streamlit App")
+st.header"Iris Flower")
 
 option = st.sidebar.selectbox(
     'Select a mini project',
