@@ -29,7 +29,7 @@ df = user_input_features()
 st.subheader('User Input parameters')
 st.write(df)
 
-st.header(Iris Flower")
+st.header("My first Streamlit App")
 import streamlit as st
 import numpy as np
 import pandas as pd
