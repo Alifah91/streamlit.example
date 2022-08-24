@@ -29,9 +29,6 @@ df = user_input_features()
 st.subheader('User Input parameters')
 st.write(df)
 
-Y = iris.target
-
-
 st.header("My first Streamlit App")
 import streamlit as st
 import numpy as np
