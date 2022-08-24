@@ -39,9 +39,9 @@ import time
 
 st.header("My first Streamlit App")
 
-option =  "iris.target_names"(
+option = st.sidebar.selectbox(
     'Select a mini project',
-     ['line chart','map','T n C','Long Process'])
+     ['line chart','map','T n C','Long Process', 'iris.target_names' ])
 
 if option=='line chart':
     chart_data = pd.DataFrame(
