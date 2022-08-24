@@ -49,7 +49,6 @@ st.write(iris.target_names[prediction])
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-%%writefile myfirstapp.py
 import streamlit as st
 import numpy as np
 import pandas as pd
